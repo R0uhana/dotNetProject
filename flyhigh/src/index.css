@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position:fixed;
+  width: 100%;
+  z-index: 10;
+  border-bottom: 1px solid gray;
+}
+
+.navbar-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+
+.navbar-item {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.navbar-link-book {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s ease;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover ,
+.navbar-link-book:hover {
+  color: rgb(59, 120, 232);
+}
+
+.navbar-link-book:hover {
+  box-shadow: 3px 3px 0px black;
+}
+
+.logoNav{
+  width: 150px;
+  margin-left: 40px;
+}
+
+.carousel {
+  margin: auto;
+  padding-top: 50px;
+}
+
+.legend{
+  width:400px !important;
+  bottom: 50% !important;
+  left: 50% !important;
+  margin: 0 !important;
+  font-size: 30px !important;
+  transform: translate(-50%, -50%) !important;
+  text-shadow: 0px 0px 10px #333;
+  padding: 0 !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+
+.introtitle {
+  font-size: 1.4rem;
+  text-align: right;
+  width: 50%;
+  padding-right: 20px;
+}
+
+.introbody {
+  color: black;
+  width: 50%;
+  padding: 20px 50px 20px 20px;
+  font-size: 1rem;
+
+}
+
+.introbody .ph5{
+  color: rgb(59, 120, 232);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 0;
+}
+
+.span1 {
+  color: black;
+}
+
+.span2 {
+  color: rgb(59, 120, 232);
+}
+
+.span3 {
+  color: rgb(81, 81, 82);
+}
+
+.randText {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+.separator {
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.separator p {
+  margin-right: 20px;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.separatorLink {
+  color: black !important;
+  font-weight: bold;
+  margin-left: 20px;
+  border: none;
+  padding: 10px 20px;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.separatorLink:hover {
+  color: rgb(59, 120, 232) !important;
+  box-shadow: 3px 3px 0px black;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.images img{
+  width: 400px;
+  margin: 0 30px;
+}
+
+.textBox {
+  display: flex;
+  flex-direction: column;
+  margin: 60px 160px;
+  text-align: center;
+}
+
+.textBox h1{
+  font-weight: bold;
+}
+
+.textBox .textFooter {
+  color: rgb(59, 120, 232);
+  margin-top: 20px;
+}
+
+.imgSeparator {
+  width: 100%;
+}
+
+.contactBox {
+  background-color: rgb(59, 120, 232);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactBox form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+  padding: 60px;
+  align-items: center;
+}
+
+.formBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.formNameInputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  height: fit-content;
+}
+
+.formNameInputs input {
+  border: 2px solid black;
+  height: 30px;
+  width: 310px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  padding: 0 10px;
+}
+
+.contactBox img{
+  width: 250px !important;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.formEmail {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.formEmail input{
+  width: 100%;
+  border: 2px solid black;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  padding: 0 10px;
+}
+
+.contactBox textarea,
+.bookBox textarea {
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 150px;
+  padding: 10px;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: column;
+}
+.checkbox input,
+.checkbox label {
+  cursor: pointer;
+}
+
+.submitContactForm {
+  border: none;
+  height: 40px;
+  background-color: rgba(59, 120, 232, 1);
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.submitContactForm:hover {
+  box-shadow: 4px 4px 0px black;
+  color: black;
+}
+
+.footer {
+  width: 100%;
+  background-color: white;
+  height: 100px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer p {
+  margin-right: 20px;
+}
+
+.videoBox {
+  display: flex;
+  justify-content: center;
+}
+
+.videoBox video {
+  width: 700px;
+  justify-self: center;
+}
+
+.package {
+  display: flex;
+  align-items: center;
+  margin: 50px 250px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.package:hover {
+  box-shadow: 5px 5px 0px black;
+}
+
+.package img {
+  width: 33%;
+  margin: 0 30px;
+}
+
+.package .packageTextLeft {
+  text-align: right ;
+  width: 33%;
+}
+.package .packageTextRight {
+  width: 33%;
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.packageTextRight li:before {
+  content: '✓ ';
+  color: rgb(59, 120, 232);
+}
+
+.modalNew {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 20;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black background */
+}
+
+.modal-content-new {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 700px;
+  height: 600px;
+  overflow: scroll;
+}
+
+.modal-content-new::-webkit-scrollbar {
+  width: 10px;
+}
+
+.modal-content-new::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.modal-content-new::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.modal-content-new::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #aaa;
+}
+
+.close:hover {
+  color: #555;
+}
+
+.bookBox {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.smallerInput {
+  width: 80px !important;
+  text-align: center;
+}
+
+.numberInputs {
+  width: 383px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputGroup {
+  display: flex;
+  justify-content: space-around;
+}
+
+.smallInputGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#selectPackage {
+  width: 400px;
+  padding: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
