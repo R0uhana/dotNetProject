@@ -36,7 +36,7 @@ app.post('/api/addBooking', (req, res) => {
   const query = 'INSERT INTO `bookings` SET ?;';
   connection.query(query, newData, (error, results) => {
     if (error) throw error;
-    res.json({ message: 'Data added successfully', affectedRows: results.affectedRows });
+    res.json({ message: 'Data added successfully!!!!!!!!!!!', affectedRows: results.affectedRows });
   });
 });
 
