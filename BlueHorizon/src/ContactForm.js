@@ -47,7 +47,7 @@ const ContactForm = () => {
             <form action="/">
                 <h1>Start planning your holiday with FlyHigh Agency today.</h1>
                 <p> Contact our expert team for inspiration, advice, or a quote.</p>
-                <img src={require("./logoNav.jpg")} className='logoNav' alt="" />
+                <img src={require("./2.png")} className='logoNav' alt="" />
                 <div className="formBox">
                     <div className="formNameInputs">
                         <div>

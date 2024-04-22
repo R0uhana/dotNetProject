@@ -9,7 +9,7 @@ const Navbar = () => {
       <ul className="navbar-list">
         <li className="navbar-item">
           <NavLink to="/" className="navbar-link">
-            <img src={require("./logoNav.jpg")} className='logoNav' alt="" />
+            <img src={require("./2.png")} className='logoNav' alt="" />
           </NavLink >
         </li>
       </ul>
