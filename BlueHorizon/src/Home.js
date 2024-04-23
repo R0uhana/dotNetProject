@@ -28,21 +28,20 @@ const Home = () => {
 
                     <h1 className="h2">
                         Welcome to <br />
-                        <span className="span1">Fly</span><span className="span2">High</span>
-                        <span className="span3">Agency</span>
+                        <span className="span1">Blue</span><span className="span2">Horizon</span>
                     </h1>
                 </div>
 
                 <div className="introbody">
-                    <p className="ph5">For Travelers who expect more, FlyHigh Agency specializes in 
+                    <p className="ph5">For Travelers who expect more, BlueHorizon Agency specializes in 
                         designing tailored vacation and travel experiences to make 
                         your travel dreams a reality</p> 
 
                     <p>From weekend getaways to extended, family-focused itineraries and
-                        luxury escapes when you book with FlyHigh Agency, you'll enjoy
+                        luxury escapes when you book with BlueHorizon Agency, you'll enjoy
                         the same level of exemplary service and value you've come to expect.</p>
 
-                    <p>When you book your holiday through FlyHigh Agency, you'll enjoy 
+                    <p>When you book your holiday through BlueHorizon Agency, you'll enjoy 
                         the benefits of our global buying power and extensive partnerships
                         which deliver exceptional value and access to unique travel
                         'perks' - making every holiday experience an unforgettable one.</p>

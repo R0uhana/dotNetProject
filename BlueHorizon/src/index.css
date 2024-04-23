@@ -20,7 +20,8 @@ code {
   position:fixed;
   width: 100%;
   z-index: 10;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #04246c;
+  box-shadow: 0 0 10px #04246c;
 }
 
 .navbar-list {
@@ -54,11 +55,12 @@ code {
   font-weight: bold;
   font-size: 16px;
   transition: color 0.3s ease;
+  display: flex;
 }
 
 .navbar-link:hover ,
 .navbar-link-book:hover {
-  color: rgb(59, 120, 232);
+  color: #c40535;
 }
 
 .navbar-link-book:hover {
@@ -66,8 +68,9 @@ code {
 }
 
 .logoNav{
-  width: 150px;
+  /* width: 150px; */
   margin-left: 40px;
+  height: 70px;
 }
 
 .carousel {
@@ -104,7 +107,7 @@ code {
 }
 
 .introbody .ph5{
-  color: rgb(59, 120, 232);
+  color: #04246c;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -114,15 +117,11 @@ p {
 }
 
 .span1 {
-  color: black;
+  color: #04246c;
 }
 
 .span2 {
-  color: rgb(59, 120, 232);
-}
-
-.span3 {
-  color: rgb(81, 81, 82);
+  color: #c40535;
 }
 
 .randText {
@@ -161,7 +160,7 @@ p {
 }
 
 .separatorLink:hover {
-  color: rgb(59, 120, 232) !important;
+  color: #c40535 !important;
   box-shadow: 3px 3px 0px black;
 }
 
@@ -188,7 +187,7 @@ p {
 }
 
 .textBox .textFooter {
-  color: rgb(59, 120, 232);
+  color: #04246c;
   margin-top: 20px;
 }
 
@@ -197,7 +196,7 @@ p {
 }
 
 .contactBox {
-  background-color: rgb(59, 120, 232);
+  background-color: rgba(0,33,105,255);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -276,7 +275,7 @@ p {
 .submitContactForm {
   border: none;
   height: 40px;
-  background-color: rgba(59, 120, 232, 1);
+  background-color: #c40535;
   margin-top: 20px;
   cursor: pointer;
   transition: 0.3s ease;

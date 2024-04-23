@@ -4,20 +4,20 @@ import TextBox from "./TextBox";
 const About = () => {
     const textContent = [
         {
-            title: "About FlyHigh Agency",
+            title: "About BlueHorizon Agency",
             id: 1,
-            body: "FlyHigh Agency specializes in designing tailored vacation experiences and exclusive extras at an exceptional value.",
-            footer: "When you book your holiday through FlyHigh Agency, you'll enjoy the benefits of our global buying power and extensive partnerships which deliver exceptional value and access to unique travel 'perks' - making every holiday experience an unforgettable one."
+            body: "BlueHorizon Agency specializes in designing tailored vacation experiences and exclusive extras at an exceptional value.",
+            footer: "When you book your holiday through BlueHorizon Agency, you'll enjoy the benefits of our global buying power and extensive partnerships which deliver exceptional value and access to unique travel 'perks' - making every holiday experience an unforgettable one."
         },
         {
             title: "Tailored holiday experiences for every style and budget",
             id: 2,
-            body: "The expert travel advisors at FlyHigh Agency have every vacation style, budget and experience covered. Our customers enjoy tailor-made travel experiences at exceptional value by leveraging our global supplier negotiations and experienced professional travel teams. Our travel advisors combine first-hand travel experience with first-class industry knowledge, ensuring your vacations are planned and delivered with ease, efficiency and accuracy."
+            body: "The expert travel advisors at BlueHorizon Agency have every vacation style, budget and experience covered. Our customers enjoy tailor-made travel experiences at exceptional value by leveraging our global supplier negotiations and experienced professional travel teams. Our travel advisors combine first-hand travel experience with first-class industry knowledge, ensuring your vacations are planned and delivered with ease, efficiency and accuracy."
         },
         {
-            title: "Luxury escapes with FlyHigh Agency",
+            title: "Luxury escapes with BlueHorizon Agency",
             id: 3,
-            body: "As a FlyHigh Agency customer, you'll also enjoy access to extraordinary travel upgrades and premium products that most travel agencies simply cannot provide.",
+            body: "As a BlueHorizon Agency customer, you'll also enjoy access to extraordinary travel upgrades and premium products that most travel agencies simply cannot provide.",
             footer: "Through our invitation-only membership of the Virtuoso travel network, we partner with more than 1,800 of the world's best hotels, cruise lines and tour operators to deliver superior vacation experiences for our discerning customers. From bespoke travel itineraries, unique travel experiences, value-added extras, complimentary perks and VIP treatment, your vacation with FlyHigh Agency is guaranteed to deliver long-lasting memories."
         }
     ]
